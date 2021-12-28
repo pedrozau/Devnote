@@ -1,0 +1,16 @@
+{
+  "name": "DevNote",
+  "version": "1.0.0",
+  "description": "learn electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "electron": "^16.0.4"
+  }
+}

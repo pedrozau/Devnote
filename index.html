@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+      <div id="app" v-cloak>
+        <title v-cloak >{{ titleFile }}</title>
+         <textarea  id="text" v-model="fileName" name="name" v-on:keyup="getText()"  rows="8" cols="80"></textarea>
+
+      </div>
+
+
+      <script src="vue.js" ></script>
+      <script src="script.js"></script>
+  </body>
+</html>
