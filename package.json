@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
-    "electron": "^16.0.4"
+    "electron": "^16.2.6"
   }
 }
