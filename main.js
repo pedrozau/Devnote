@@ -6,7 +6,7 @@ let file = {}
 async function createWindow() {
 
    mainWindow = new BrowserWindow({
-        width:700,
+        width:800,
         height:500,
         webPreferences:{
             nodeIntegration:true,
@@ -205,9 +205,9 @@ let templateMenu = [
         label:'Ajuda',
         submenu:[
           {
-            label:'Site',
+            label:'Faccebook',
             click() {
-              shell.openExternal('https://free.facebook.com/pedrozau.zau.33')
+              shell.openExternal('https://free.facebook.com/pedrozau.zau.2')
             }
 
           }

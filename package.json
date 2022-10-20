@@ -1,16 +1,18 @@
 {
   "name": "DevNote",
   "version": "1.0.0",
-  "description": "learn electron",
+  "description": "Editor de texto",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "email":"pedrozau28@gmail.com",
+    "name":"pedrozau"
+  },
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0",
-    "electron": "^17.4.9"
+     "electron": "^6.1.12"
   }
 }
