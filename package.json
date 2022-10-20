@@ -13,6 +13,6 @@
   },
   "license": "ISC",
   "dependencies": {
-     "electron": "^6.1.12"
+     "electron": "^17.4.9"
   }
 }
